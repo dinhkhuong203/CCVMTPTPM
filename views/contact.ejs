@@ -1,0 +1,33 @@
+<% layout('layout', { title: 'Contact' }) %>
+
+<div class="container contact-page">
+  <!-- Conflict area 1: header (changes from machine A vs B) -->
+<<<<<<< HEAD
+  <h2>Contact Us - A Edition</h2>
+=======
+  <h2>Contact - Team B</h2>
+>>>>>>> branch-B
+
+  <p>Please reach out using the form below.</p>
+
+  <!-- Conflict area 2: contact form (different structure/styles from A and B) -->
+<<<<<<< HEAD
+  <form class="contact-form form-a">
+    <label for="name">Name (A)</label>
+    <input id="name" name="name" type="text">
+    <label for="message">Message (A)</label>
+    <textarea id="message" name="message"></textarea>
+    <button class="btn btn-primary">Send from A</button>
+  </form>
+=======
+  <form class="contact-form form-b">
+    <label for="fullname">Full name (B)</label>
+    <input id="fullname" name="fullname" type="text">
+    <label for="msg">Your message (B)</label>
+    <textarea id="msg" name="msg"></textarea>
+    <button class="btn btn-accent">Submit from B</button>
+  </form>
+>>>>>>> branch-B
+
+  <p class="note">This file intentionally contains Git conflict markers to demonstrate merge conflicts between two machines (A and B). When resolving, keep only the desired version.</p>
+</div>
